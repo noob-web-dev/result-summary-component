@@ -183,14 +183,16 @@ body {
   border-radius: 2rem;
 }
 
-.btn:hover, .btn:active{
-  background-image: linear-gradient( var(--Light-slate-blue), var(--Light-royal-blue));
+.btn:hover,
+.btn:focus {
+  background-image: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
 }
 
 @media screen and (min-width: 600px) {
-  body{
+  body {
     height: 100vh;
   }
+
   .main__container {
     border-radius: 2rem;
     grid-template-columns: 1fr 1fr;

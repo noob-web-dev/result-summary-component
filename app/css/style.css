@@ -147,7 +147,7 @@ body {
   background-color: var(---Light-red-bg);
 }
 
-.summary__subject[data-item-type="accent-1"] h3 {
+.summary__subject[data-item-type="accent-1"]>.left>h3 {
   color: var(---Light-red);
 }
 
@@ -156,7 +156,7 @@ body {
   background-color: var(--Orangey-yellow-bg);
 }
 
-.summary__subject[data-item-type="accent-2"] h3 {
+.summary__subject[data-item-type="accent-2"]>.left>h3 {
   color: var(--Orangey-yellow);
 }
 
@@ -164,7 +164,7 @@ body {
   background-color: var(--Green-teal-bg);
 }
 
-.summary__subject[data-item-type="accent-3"] h3 {
+.summary__subject[data-item-type="accent-3"]>.left>h3 {
   color: var(--Green-teal);
 }
 
@@ -172,7 +172,7 @@ body {
   background-color: var(--Cobalt-blue-bg);
 }
 
-.summary__subject[data-item-type="accent-4"] h3 {
+.summary__subject[data-item-type="accent-4"]>.left>h3 {
   color: var(--Cobalt-blue);
 }
 
